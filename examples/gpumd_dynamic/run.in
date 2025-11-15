@@ -1,7 +1,5 @@
-potential   ../nep_train/nep.txt
-velocity    300
-
-ensemble    nvt_lan 300 300 100
-time_step   1
+potential /GPUMD/examples/nep_train/nep.txt
+ensemble nve
+time_step 1
 dump_thermo 10
-run         10000
+run 1000
